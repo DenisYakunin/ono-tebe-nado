@@ -15,7 +15,7 @@
   max-width: 1440px;
   margin: 0 auto;
   padding: 92px 50px;
-  grid-template: 109px /1fr min-content 1fr;
+  grid-template: 1fr /1fr min-content 1fr;
 }
 
 .header__links-list {
@@ -146,6 +146,7 @@
   text-align: center;
   text-transform: uppercase;
   background-color: transparent;
+  font-family: inherit;
 }
 
 /* lots */
@@ -180,6 +181,7 @@
   display: block;
   width: 100%;
   height: 100%;
+  text-decoration: none;
 }
 
 .card {
@@ -242,7 +244,7 @@
   place-content: center;
   column-gap: 25px;
   padding: 0 50px;
-  grid-template: 487px / 430px 1fr;
+  grid-template: 1fr / 430px 1fr;
 }
 
 .about__logo {
@@ -301,7 +303,6 @@
 .footer__social-list {
   display: flex;
   column-gap: 48px;
-  height: 48px;
   list-style: none;
 }
 
